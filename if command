@@ -1,0 +1,4 @@
+  command = input("Enter command: ").split()
+    if command[0] == 'commit':
+        repo.commit(' '.join(command[1:]))
+    elif command[0] == 'branch':
